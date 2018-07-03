@@ -75,7 +75,42 @@ public class VirtualMachine {
         this.symbolTable.put(symbol,index);
     }
 
-    public void storeInMemory(MemoryBlock ablock, int index){
-        this.virtualMemory[index] = ablock;
+    public void storeInMemory(MemoryBlock aBlock, int index){
+        this.virtualMemory[index] = aBlock;
+    }
+
+    public void resetMachine(){
+        virtualMemory = new MemoryBlock[256];
+        symbolTable = new HashMap<String, Byte>();
+        registerA = 0;
+        registerB = 0;
+        programCounter = 0;
+        zeroResultBit = false;
+        overflowBit = false;
+    }
+
+    public void add(){
+        zeroResultBit = false;
+        overflowBit = false;
+        int total = registerA + registerB;
+        if(total == 0) setZeroResultBit(true);
+        if((registerA>0) && (registerB>0) && (total<0)) setOverflowBit(true);
+        registerA = total;
+    }
+
+    public void declare(String symbol, byte index){
+        addSymbol(symbol,index);
+    }
+
+    public void jump(byte index){
+        setProgramCounter(index);
+    }
+
+    public void jumpIfOverFlow(byte index){
+        if(getOverflowBit()) setProgramCounter(index);
+    }
+
+    public void jumpIfZeroBit(byte index){
+        if(getZeroResultBit()) setProgramCounter(index);
     }
 }
