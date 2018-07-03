@@ -7,5 +7,5 @@ public abstract class Commands {
         this.virtualMachineImage = anImage;
     }
 
-    public abstract void execute(Instruction instruction);
+    public abstract void execute(MemoryBlock memoryBlock);
 }

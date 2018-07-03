@@ -7,7 +7,7 @@ public class XCH extends Commands {
     }
 
     @Override
-    public void execute(Instruction instruction) {
+    public void execute(MemoryBlock memoryBlock) {
 
     }
 }
