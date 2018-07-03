@@ -7,7 +7,7 @@ public class ST extends Commands {
     }
 
     @Override
-    public void execute(Instruction instruction) {
+    public void execute(MemoryBlock memoryBlock) {
 
     }
 }

@@ -7,7 +7,7 @@ public class DEC extends Commands {
     }
 
     @Override
-    public void execute(Instruction instruction) {
+    public void execute(MemoryBlock memoryBlock) {
 
     }
 }

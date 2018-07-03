@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d2df5df-fe81-4672-be63-aff7f1123fc7" name="Default" comment="Initialize project" />
+    <list default="true" id="8d2df5df-fe81-4672-be63-aff7f1123fc7" name="Default" comment="Initial structure of the project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,19 +14,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DEC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/DEC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#104#105#0" expanded="true" />
-                <element signature="e#134#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LDA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/LDA.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -129,15 +118,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ADD.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ADD.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/ADD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="221">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#108#109#0" expanded="true" />
                 <element signature="e#138#139#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VirtualMachine.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/com/akash/dobaria/JZS.java" />
         <option value="$PROJECT_DIR$/src/com/akash/dobaria/JVS.java" />
         <option value="$PROJECT_DIR$/src/com/akash/dobaria/ADD.java" />
+        <option value="$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java" />
       </list>
     </option>
   </component>
@@ -259,12 +258,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530627117882</updated>
-      <workItem from="1530627122030" duration="1853000" />
+      <workItem from="1530627122030" duration="3303000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1853000" />
+    <option name="totallyTimeSpent" value="3303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -314,13 +313,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -443,12 +435,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/ADD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#108#109#0" expanded="true" />
             <element signature="e#138#139#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
