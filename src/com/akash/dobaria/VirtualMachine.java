@@ -10,8 +10,9 @@ public class VirtualMachine {
     private byte programCounter;
     private boolean zeroResultBit;
     private boolean overflowBit;
+    private static VirtualMachine virtualMachineInstance;
 
-    public VirtualMachine(){
+    private VirtualMachine(){
         virtualMemory = new MemoryBlock[256];
         symbolTable = new HashMap<String, Byte>();
         registerA = 0;
@@ -19,6 +20,14 @@ public class VirtualMachine {
         programCounter = 0;
         zeroResultBit = false;
         overflowBit = false;
+        virtualMachineInstance = null;
+    }
+
+    public static synchronized VirtualMachine getInstance(){
+        if(virtualMachineInstance == null){
+            virtualMachineInstance = new VirtualMachine();
+        }
+        return virtualMachineInstance;
     }
 
     public int getRegisterA() {
