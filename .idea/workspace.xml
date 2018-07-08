@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d2df5df-fe81-4672-be63-aff7f1123fc7" name="Default" comment="Initial structure of the project">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/akash/dobaria/MemoryBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/akash/dobaria/MemoryBlock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemoryBlock.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MemoryBlock.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/MemoryBlock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -104,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VirtualMachine.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="VirtualMachine.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+            <state relative-caret-position="388">
+              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
             </state>
           </provider>
         </entry>
@@ -145,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/com/akash/dobaria/JVS.java" />
         <option value="$PROJECT_DIR$/src/com/akash/dobaria/ADD.java" />
         <option value="$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java" />
+        <option value="$PROJECT_DIR$/src/com/akash/dobaria/MemoryBlock.java" />
       </list>
     </option>
   </component>
@@ -233,12 +233,12 @@
       <updated>1530627117882</updated>
       <workItem from="1530627122030" duration="7664000" />
       <workItem from="1530718908450" duration="783000" />
-      <workItem from="1531056555948" duration="273000" />
+      <workItem from="1531056555948" duration="1093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8720000" />
+    <option name="totallyTimeSpent" value="9540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -530,17 +530,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/MemoryBlock.java">
+    <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="388">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/VirtualMachine.java">
+    <entry file="file://$PROJECT_DIR$/src/com/akash/dobaria/MemoryBlock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        <state relative-caret-position="425">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
